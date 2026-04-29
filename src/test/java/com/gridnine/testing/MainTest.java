@@ -9,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 // С JUnit. В задании было указано чтобы никкаких библиотек не добавлять. (У меня в IntelliJ IDEA была добавлена ранее)
-class MainTest {
+public class MainTest {
 
     @Test
     void testDepartureBeforeNowFilter() {
@@ -68,7 +68,7 @@ class MainTest {
 }
 
 //// Это если без JUnit (В задании было указано чтобы никкаких библиотек не добавлять)
-//public class MainTest {
+// public class MainTest {
 //
 //    public static void main(String[] args) {
 //        System.out.println("=== Ручное тестирование ===\n");
